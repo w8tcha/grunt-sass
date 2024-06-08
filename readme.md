@@ -1,37 +1,34 @@
-# grunt-sass
+# @w8tcha/grunt-sass
 
-[<img src="https://github.com/sass/sass-site/blob/master/source/assets/img/logos/logo-seal.png" width="150" align="right">](https://sass-lang.com)
+[<img src="https://github.com/sass/sass-site/blob/main/source/assets/img/logos/logo-seal.png" width="150" align="right">](https://sass-lang.com)
 
-> Compile Sass to CSS using [Dart Sass][] or [Node Sass][].
+> Compile Sass to CSS using [Dart Sass][].
 
 [Dart Sass]: http://sass-lang.com/dart-sass
-[Node Sass]: https://github.com/sass/node-sass
 
 Before filing an issue with this repository, please consider:
 
 * Asking support questions on Use [Stack Overflow][].
 
-* Reporting issues with the output on the [Dart Sass][Dart Sass issues] or [LibSass][LibSass issues] issue trackers, depending which implementation you're using.
+* Reporting issues with the output on the [Dart Sass][Dart Sass issues] issue trackers, depending which implementation you're using.
 
-* Reporting installation issues on the [Dart Sass][Dart Sass issues] or [Node Sass][Node Sass issues] issue trackers, depending on which implementation you're using.
+* Reporting installation issues on the [Dart Sass][Dart Sass issues] issue trackers, depending on which implementation you're using.
 
 [Stack Overflow]: https://stackoverflow.com/questions/tagged/node-sass
 [Dart Sass issues]: https://github.com/sass/dart-sass/issues/new
-[LibSass issues]: https://github.com/sass/libsass/issues/new
-[Node Sass issues]: https://github.com/sass/node-sass/issues/new
 
 
 ## Install
 
 ```
-$ npm install --save-dev node-sass grunt-sass
+$ npm install --save-dev @w8tcha/grunt-sass
 ```
 
 
 ## Usage
 
 ```js
-const sass = require('node-sass');
+const sass = require('sass');
 
 require('load-grunt-tasks')(grunt);
 
